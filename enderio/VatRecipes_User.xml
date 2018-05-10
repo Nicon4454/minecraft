@@ -1,0 +1,35 @@
+<VatRecipes>
+<recipeGroup name="Fuel" >
+	<recipe name="refined_fuel" energyCost="200" allowMissing="true" >
+      <input>
+        <itemStack modID="minecraft" itemName="gravel" slot="0" multiplier="1" />
+        <fluidStack modID="immersivepetroleum" name="gasoline" multiplier="1" />
+      </input>
+      <output>
+        <fluidStack modID="ThermalFoundation" name="fuel" />
+      </output>
+    </recipe>
+	<recipe name="diesel" energyCost="200" allowMissing="true" >
+      <input>
+        <itemStack modID="minecraft" itemName="cobblestone" slot="0" multiplier="1" />
+        <fluidStack modID="immersivepetroleum" name="gasoline" multiplier="1" />
+      </input>
+      <output>
+        <fluidStack modID="immersivepetroleum" name="diesel" />
+      </output>
+    </recipe>
+	<recipe name="fuel" energyCost="200" allowMissing="true" >
+      <input>
+        <itemStack modID="minecraft" itemName="gravel" slot="0" multiplier="1" />
+        <fluidStack modID="immersivepetroleum" name="diesel" multiplier="1" />
+      </input>
+      <output>
+        <fluidStack modID="ThermalFoundation" name="fuel" />
+      </output>
+    </recipe>
+	
+	
+	</recipeGroup>
+
+
+</VatRecipes>
