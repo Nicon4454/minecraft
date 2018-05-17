@@ -91,7 +91,7 @@
 <AlloySmelterRecipes>
 
   <recipeGroup name="EnderIO" > <!-- Required for EnderIO to function correctly. -->
-    <recipe name="Electrical Steel" energyCost="100" >
+    <recipe name="Electrical Steel" energyCost="10" >
       <input>
         <itemStack modID="minecraft" itemName="iron_ingot" />
         <itemStack oreDictionary="dustCoal" />
@@ -101,7 +101,7 @@
         <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="0" exp="0.5" />
       </output>
     </recipe>
-    <recipe name="Energetic Alloy" energyCost="100" >
+    <recipe name="Energetic Alloy" energyCost="10" >
       <input>
         <itemStack modID="minecraft" itemName="redstone" />
         <itemStack modID="minecraft" itemName="gold_ingot" />
@@ -111,7 +111,7 @@
         <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="1" exp="0.7" />
       </output>
     </recipe>
-    <recipe name="Vibrant Alloy" energyCost="100" >
+    <recipe name="Vibrant Alloy" energyCost="10" >
       <input>
         <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="1" /> <!-- Energetic Alloy -->
         <itemStack modID="minecraft" itemName="ender_pearl" />
@@ -120,7 +120,7 @@
         <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="2" exp="1" />
       </output>
     </recipe>
-    <recipe name="Redstone Alloy" energyCost="100" >
+    <recipe name="Redstone Alloy" energyCost="10" >
       <input>
         <itemStack modID="minecraft" itemName="redstone" />
         <itemStack oreDictionary="itemSilicon" />
@@ -129,7 +129,7 @@
         <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="3" exp="0.5" />
       </output>
     </recipe>
-    <recipe name="Conductive Iron" energyCost="100" >
+    <recipe name="Conductive Iron" energyCost="10" >
       <input>
         <itemStack modID="minecraft" itemName="redstone" />
         <itemStack modID="minecraft" itemName="iron_ingot" />
@@ -138,7 +138,7 @@
         <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="4" exp="0.5" />
       </output>
     </recipe>
-    <recipe name="Pulsating Iron" energyCost="100" >
+    <recipe name="Pulsating Iron" energyCost="10" >
       <input>
         <itemStack modID="minecraft" itemName="iron_ingot" />
         <itemStack modID="minecraft" itemName="ender_pearl" />
@@ -147,7 +147,7 @@
         <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="5" exp="0.7" />
       </output>
     </recipe>
-    <recipe name="Dark Steel" energyCost="200" >
+    <recipe name="Dark Steel" energyCost="20" >
       <input>
         <itemStack modID="minecraft" itemName="iron_ingot" />
         <itemStack oreDictionary="dustCoal" />
@@ -157,7 +157,7 @@
         <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="6" exp="0.5" />
       </output>
     </recipe>
-    <recipe name="Soularium" energyCost="100" >
+    <recipe name="Soularium" energyCost="10" >
       <input>
         <itemStack modID="minecraft" itemName="soul_sand" />
         <itemStack modID="minecraft" itemName="gold_ingot" />
@@ -174,7 +174,7 @@
         <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" exp="0.5" />
       </output>
     </recipe>
-    <recipe name="Fused Glass" energyCost="200" >
+    <recipe name="Fused Glass" energyCost="20" >
       <input>
         <itemStack modID="minecraft" itemName="glass" />
       </input>
@@ -310,7 +310,7 @@
   </recipeGroup>
 
   <recipeGroup name="Thermal Expansion" >
-    <recipe name="Electrum Ingot" energyCost="200" >
+    <recipe name="Electrum Ingot" energyCost="20" >
       <input>
         <itemStack oreDictionary="ingotGold" />
         <itemStack oreDictionary="ingotSilver" />
@@ -319,7 +319,7 @@
         <itemStack oreDictionary="ingotElectrum" number="2" exp="0.25" />
       </output>
     </recipe>
-    <recipe name="Invar Ingot" energyCost="3000" >
+    <recipe name="Invar Ingot" energyCost="30" >
       <input>
         <itemStack oreDictionary="ingotNickel" />
         <itemStack oreDictionary="ingotIron" number="2" />
@@ -356,7 +356,7 @@
         <itemStack oreDictionary="ingotEnderiumBase" number="4" />
       </output>
     </recipe>
-    <recipe name="Enderium" energyCost="500" >
+    <recipe name="Enderium" energyCost="50" >
       <input>
         <itemStack oreDictionary="ingotEnderiumBase" number="2" />
         <itemStack oreDictionary="dustPyrotheum" number="1" />
@@ -386,7 +386,7 @@
         <itemStack oreDictionary="ingotSignalum" number="4" />
       </output>
     </recipe>
-    <recipe name="Lumium from dust" energyCost="32000" >
+    <recipe name="Lumium from dust" energyCost="320" >
       <input>
         <itemStack oreDictionary="ingotTin" number="3" />
         <itemStack oreDictionary="ingotSilver" />
@@ -396,7 +396,7 @@
         <itemStack oreDictionary="ingotLumium" number="4" />
       </output>
     </recipe>
-    <recipe name="Lumium" energyCost="32000" >
+    <recipe name="Lumium" energyCost="320" >
       <input>
         <itemStack oreDictionary="ingotTin" number="3" />
         <itemStack oreDictionary="ingotSilver" />
@@ -409,7 +409,7 @@
   </recipeGroup>
 
   <recipeGroup name="Vanilla Plants" >
-    <recipe name="Green Dye" energyCost="2000" >
+    <recipe name="Green Dye" energyCost="20" >
       <input>
         <itemStack oreDictionary="itemPlantgreen" number="12" />
         <itemStack oreDictionary="slimeball" number="1" />
@@ -418,7 +418,7 @@
         <itemStack oreDictionary="dyeGreen" number="2" exp="0.25" />
       </output>
     </recipe>
-    <recipe name="Green Dye 2" energyCost="1500" >
+    <recipe name="Green Dye 2" energyCost="15" >
       <input>
         <itemStack oreDictionary="itemPlantgreen" number="6" />
         <itemStack oreDictionary="egg" number="1" />
@@ -427,7 +427,7 @@
         <itemStack oreDictionary="dyeGreen" number="1" exp="0.125" />
       </output>
     </recipe>
-    <recipe name="Brown Dye" energyCost="2000" >
+    <recipe name="Brown Dye" energyCost="20" >
       <input>
         <itemStack oreDictionary="itemPlantbrown" number="12" />
         <itemStack oreDictionary="slimeball" number="1" />
@@ -436,7 +436,7 @@
         <itemStack oreDictionary="dyeBrown" number="2" exp="0.25" />
       </output>
     </recipe>
-    <recipe name="Brown Dye 2" energyCost="1500" >
+    <recipe name="Brown Dye 2" energyCost="15" >
       <input>
         <itemStack oreDictionary="itemPlantbrown" number="6" />
         <itemStack modID="minecraft" itemName="mushroom_stew" number="1" />
@@ -445,7 +445,7 @@
         <itemStack oreDictionary="dyeBrown" number="1" exp="0.125" />
       </output>
     </recipe>
-    <recipe name="Red Dye" energyCost="15000" >
+    <recipe name="Red Dye" energyCost="150" >
       <input>
         <itemStack modID="minecraft" itemName="beetroot" number="1" />
         <itemStack oreDictionary="itemClay" number="3" />
@@ -455,7 +455,7 @@
         <itemStack oreDictionary="dyeRed" number="12" exp="1.0" />
       </output>
     </recipe>
-    <recipe name="Dead Tree" energyCost="2000" >
+    <recipe name="Dead Tree" energyCost="20" >
       <input>
         <itemStack oreDictionary="treeSapling" number="1" />
       </input>
@@ -493,16 +493,16 @@
       </output>
     </recipe>
 
-    <recipe name="Steel - Charcoal" energyCost="8000" >
+-->
+
+    <recipe name="Steel - Charcoal" energyCost="80" >
       <input>
         <itemStack oreDictionary="ingotIron" number="1" />
         <itemStack modID="minecraft" itemName="coal" itemMeta="1" number="4" />
       </input>
       <output>
-        <itemStack oreDictionary="ingotSteel" number="1" />
+        <itemStack oreDictionary="ingotSteel" number="2" />
       </output>
     </recipe>
-
--->
 
 </AlloySmelterRecipes>
