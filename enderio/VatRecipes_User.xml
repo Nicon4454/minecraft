@@ -1,5 +1,5 @@
 <VatRecipes>
-<recipeGroup name="Fuel" >
+<recipeGroup name="fuel" >
 	<recipe name="refined_fuel" energyCost="200" allowMissing="true" >
       <input>
         <itemStack modID="minecraft" itemName="gravel" slot="0" multiplier="1" />
@@ -27,7 +27,15 @@
         <fluidStack modID="ThermalFoundation" name="fuel" />
       </output>
     </recipe>
-	
+	<recipe name="fuel" energyCost="200" allowMissing="true" >
+      <input>
+        <itemStack modID="minecraft" itemName="gravel" slot="0" multiplier="5" />
+        <fluidStack modID="immersivepetroleum" name="oil" multiplier="5" />
+      </input>
+      <output>
+        <fluidStack modID="ThermalFoundation" name="crude_oil" />
+      </output>
+    </recipe>
 	
 	</recipeGroup>
 
