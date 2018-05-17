@@ -36,6 +36,15 @@
         <fluidStack modID="ThermalFoundation" name="crude_oil" />
       </output>
     </recipe>
+  <recipe name="fuel" energyCost="200" allowMissing="true" >
+      <input>
+        <itemStack modID="minecraft" itemName="gravel" slot="0" multiplier="2" />
+        <fluidStack modID="immersivepetroleum" name="Lubricant" multiplier="1" />
+      </input>
+      <output>
+        <fluidStack modID="ThermalFoundation" name="creosote" />
+      </output>
+    </recipe>
 	
 	</recipeGroup>
 
