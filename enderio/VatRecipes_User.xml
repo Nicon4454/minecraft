@@ -3,7 +3,7 @@
 	<recipe name="refined_fuel" energyCost="200" allowMissing="true" >
       <input>
         <itemStack modID="minecraft" itemName="gravel" slot="0" multiplier="1" />
-        <fluidStack modID="immersivepetroleum" name="gasoline" multiplier="1" />
+        <fluidStack modID="immersivepetroleum" name="gasoline" multiplier="2" />
       </input>
       <output>
         <fluidStack modID="ThermalFoundation" name="fuel" />
@@ -12,7 +12,7 @@
 	<recipe name="diesel" energyCost="200" allowMissing="true" >
       <input>
         <itemStack modID="minecraft" itemName="cobblestone" slot="0" multiplier="1" />
-        <fluidStack modID="immersivepetroleum" name="gasoline" multiplier="1" />
+        <fluidStack modID="immersivepetroleum" name="gasoline" multiplier="2" />
       </input>
       <output>
         <fluidStack modID="immersivepetroleum" name="diesel" />
@@ -21,7 +21,7 @@
 	<recipe name="fuel" energyCost="200" allowMissing="true" >
       <input>
         <itemStack modID="minecraft" itemName="gravel" slot="0" multiplier="1" />
-        <fluidStack modID="immersivepetroleum" name="diesel" multiplier="1" />
+        <fluidStack modID="immersivepetroleum" name="diesel" multiplier="2" />
       </input>
       <output>
         <fluidStack modID="ThermalFoundation" name="fuel" />
@@ -29,23 +29,23 @@
     </recipe>
 	<recipe name="fuel" energyCost="200" allowMissing="true" >
       <input>
-        <itemStack modID="minecraft" itemName="gravel" slot="0" multiplier="5" />
-        <fluidStack modID="immersivepetroleum" name="oil" multiplier="5" />
+        <itemStack modID="minecraft" itemName="gravel" slot="0" multiplier="1" />
+      	<fluidStack modID="immersivepetroleum" name="oil" multiplier="8" />
       </input>
       <output>
         <fluidStack modID="ThermalFoundation" name="crude_oil" />
       </output>
     </recipe>
-  <recipe name="creosote" energyCost="200" allowMissing="true" >
+	<recipe name="creosote" energyCost="200" allowMissing="true" >
       <input>
-        <itemStack modID="minecraft" itemName="gravel" slot="0" multiplier="2" />
-        <fluidStack modID="immersivepetroleum" name="Lubricant" multiplier="1" />
+        <itemStack modID="minecraft" itemName="gravel" slot="0" multiplier="1" />
+        <fluidStack modID="immersivepetroleum" name="lubricant" multiplier="2" />
       </input>
       <output>
         <fluidStack modID="ThermalFoundation" name="creosote" />
       </output>
-    </recipe>
-	
+    </recipe>	
+
 	</recipeGroup>
 
 
