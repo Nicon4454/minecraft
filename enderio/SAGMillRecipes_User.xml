@@ -298,7 +298,7 @@
         <itemStack oreDictionary="gravel" number="2"/>
         <itemStack oreDictionary="sand" number="5"/>
         <itemStack oreDictionary="itemFlint" />
-		<itemStack modID="EnderIO" itemName="itemMaterial" number="5" itemMeta="0" />
+		    <itemStack modID="EnderIO" itemName="itemMaterial" number="5" itemMeta="0" />
       </output>
     </recipe>
     <recipe name="Sandstone" energyCost="2400" >
@@ -306,7 +306,7 @@
         <itemStack oreDictionary="sandstone" />
       </input>
       <output>
-        <itemStack oreDictionary="sand" number="2" />
+        <itemStack oreDictionary="sand" number="4" />
         <itemStack oreDictionary="sand" number="2" chance="0.4" />
         <itemStack oreDictionary="dustSaltpeter" number="1" chance ="0.15" />
       </output>
@@ -341,8 +341,8 @@
         <itemStack modID="minecraft" itemName="blaze_rod" />
       </input>
       <output>
-        <itemStack modID="minecraft" itemName="blaze_powder" number="4" />
-        <itemStack oreDictionary="dustSulfur" chance="0.5" />
+        <itemStack modID="minecraft" itemName="blaze_powder" number="8" />
+        <itemStack oreDictionary="dustSulfur" chance="0.1" />
       </output>
     </recipe>
     <recipe name="GlowStone" energyCost="2400" >
@@ -351,7 +351,7 @@
       </input>
       <output>
         <itemStack modID="minecraft" itemName="glowstone_dust" number="6" />
-        <itemStack modID="minecraft" itemName="glowstone_dust" number="1" chance="0.8" />
+        <itemStack modID="minecraft" itemName="glowstone_dust" number="2" chance="0.8" />
       </output>
     </recipe>
     <recipe name="Bone" energyCost="1200" >
@@ -369,8 +369,8 @@
       </input>
       <output>
         <itemStack modID="minecraft" itemName="clay_ball" number="4" />
-        <itemStack modID="minecraft" itemName="clay_ball" number="4" chance="0.1" />
-		<itemStack modID="minecraft" itemName="clay_ball" number="2" chance="0.5" />
+        <itemStack modID="minecraft" itemName="clay_ball" number="4" chance="0.8" />
+		    <itemStack modID="minecraft" itemName="clay_ball" number="2" chance="0.5" />
         <itemStack modID="EnderIO" itemName="itemMaterial" number="2" itemMeta="0" chance="0.8" />
       </output>
     </recipe>
@@ -379,8 +379,8 @@
         <itemStack modID="minecraft" itemName="wool" itemMeta="*" />
       </input>
       <output>
-        <itemStack modID="minecraft" itemName="string" number="3" />
-        <itemStack modID="minecraft" itemName="string" number="1" chance="0.1" />
+        <itemStack modID="minecraft" itemName="string" number="6" />
+        <itemStack modID="minecraft" itemName="string" number="2" chance="0.1" />
       </output>
     </recipe>
     <recipe name="Wheat" energyCost="800" >
@@ -408,7 +408,7 @@
         <itemStack oreDictionary="oreDiamond" />
       </input>
       <output>
-        <itemStack modID="minecraft" itemName="diamond" number="1" />
+        <itemStack modID="minecraft" itemName="diamond" number="4" />
         <itemStack modID="minecraft" itemName="diamond" number="1" chance="0.25" />
         <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
         <itemStack oreDictionary="dustCoal" number="1" chance="0.05" />
@@ -419,7 +419,7 @@
         <itemStack oreDictionary="oreEmerald" />
       </input>
       <output>
-        <itemStack modID="minecraft" itemName="emerald" number="1" />
+        <itemStack modID="minecraft" itemName="emerald" number="4" />
         <itemStack modID="minecraft" itemName="emerald" number="1" chance="0.25" />
         <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
       </output>
@@ -439,7 +439,7 @@
         <itemStack oreDictionary="oreQuartz" />
       </input>
       <output>
-        <itemStack modID="minecraft" itemName="quartz" number="2" />
+        <itemStack modID="minecraft" itemName="quartz" number="4" />
         <itemStack oreDictionary="dustNetherQuartz" chance="0.1" />
       </output>
     </recipe>
@@ -479,7 +479,7 @@
       </input>
       <output>
         <itemStack oreDictionary="dustCopper" number="2" />
-        <itemStack oreDictionary="dustGold" number="1" chance="0.125" />
+        <itemStack oreDictionary="dustGold" number="1" chance="0.625" />
         <itemStack modID="minecraft" itemName="cobblestone" chance="0.15" />
       </output>
     </recipe>
