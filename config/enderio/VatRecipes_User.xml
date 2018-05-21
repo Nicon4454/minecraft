@@ -1,15 +1,22 @@
 <VatRecipes>
-<recipeGroup name="fuel" >
-	<recipe name="refined_fuel" energyCost="200" allowMissing="true" >
+<recipeGroup name="Fuel" >
+	
+	<!-- Refined_Fuel Production -->
+	
+	<recipe name="Refined_Fuel" energyCost="200" allowMissing="true" >
       <input>
         <itemStack modID="minecraft" itemName="gravel" slot="0" multiplier="1" />
         <fluidStack modID="immersivepetroleum" name="gasoline" multiplier="4" />
+		<fluidStack modID="immersivepetroleum" name="diesel" multiplier="4" />
       </input>
       <output>
         <fluidStack modID="ThermalFoundation" name="fuel" />
       </output>
     </recipe>
-	<recipe name="diesel" energyCost="200" allowMissing="true" >
+	
+	<!-- Diesel Production -->
+	
+	<recipe name="Diesel" energyCost="200" allowMissing="true" >
       <input>
         <itemStack modID="minecraft" itemName="cobblestone" slot="0" multiplier="1" />
         <fluidStack modID="immersivepetroleum" name="gasoline" multiplier="4" />
@@ -18,16 +25,10 @@
         <fluidStack modID="immersivepetroleum" name="diesel" />
       </output>
     </recipe>
-	<recipe name="fuel" energyCost="200" allowMissing="true" >
-      <input>
-        <itemStack modID="minecraft" itemName="gravel" slot="0" multiplier="1" />
-        <fluidStack modID="immersivepetroleum" name="diesel" multiplier="2" />
-      </input>
-      <output>
-        <fluidStack modID="ThermalFoundation" name="fuel" />
-      </output>
-    </recipe>
-	<recipe name="crude_oil" energyCost="200" allowMissing="true" >
+	
+	<!-- Crude Oil Production -->
+		
+	<recipe name="Crude_Oil" energyCost="200" allowMissing="true" >
       <input>
         <itemStack modID="minecraft" itemName="gravel" slot="0" multiplier="1" />
       	<fluidStack modID="immersivepetroleum" name="oil" multiplier="8" />
@@ -36,7 +37,10 @@
         <fluidStack modID="ThermalFoundation" name="crude_oil" />
       </output>
     </recipe>
-	<recipe name="creosote" energyCost="200" allowMissing="true" >
+
+	<!-- Creosote Production -->
+	
+	<recipe name="Creosote" energyCost="200" allowMissing="true" >
       <input>
         <itemStack modID="minecraft" itemName="gravel" slot="0" multiplier="1" />
         <fluidStack modID="immersivepetroleum" name="lubricant" multiplier="2" />
@@ -46,6 +50,17 @@
       </output>
     </recipe>	
 
+	<!-- Rocket_Fuel -->
+	
+	<recipe name="Rocket_Fuel" energyCost="200" allowMissing="true" >
+      <input>
+        <itemStack modID="immersivepetroleum" itemName="material" slot="0" multiplier="2" />
+        <fluidStack modID="immersivepetroleum" name="diesel" multiplier="4" />
+      </input>
+      <output>
+        <fluidStack name="rocket_fuel" />
+      </output>
+    </recipe>	
 	</recipeGroup>
 
 
