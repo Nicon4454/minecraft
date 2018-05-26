@@ -423,4 +423,25 @@
       </output>
     </recipe>
   </recipeGroup>
+
+<!-- The Folloing recipes are being added by nicon4454 and should be considered beta -->
+  
+  <recipeGroup name="override" >
+    <recipe name="glass" energyCost="100" >
+      <input>
+        <itemStack oreDictionary="sand" />
+      </input>
+      <output>
+        <itemStack oreDictionary="glass" />
+      </output>
+    </recipe>
+
+
+
+  </recipeGroup>
+
+
+
+
+
 </AlloySmelterRecipes>
