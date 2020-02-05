@@ -19,8 +19,6 @@ mon = peripheral.wrap("monitor_0")
 
 
 
-
-
 function comma_value(amount)
     local formatted = amount
     while true do
