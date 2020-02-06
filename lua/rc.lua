@@ -4,7 +4,9 @@
 ## by nicon4454              ## 
 ## 02/05/2020 v0.01          ##
 ###############################
-]] -- Please change this section to match your needs
+]] 
+
+-- Please change this section to match your needs
 cb = peripheral.wrap("capacitor_bank_0")
 br = peripheral.wrap("BigReactors-Reactor_0")
 mon = peripheral.wrap("monitor_0")
@@ -24,7 +26,7 @@ active = 0 -- weather the reactor is on (1) or off (0)
 
 function reactorohoff()
     ron = (cb.getMaxEnergyStored() * ronp)
-    roff = (cb.getMaxEnergyStored() * roffp)
+            roff = (cb.getMaxEnergyStored() * roffp)
 end
 
 function comma_value(amount)
@@ -39,3 +41,4 @@ end
 es = (comma_value(string.format("%.1d", (cb.getEnergyStored()))))
 mes = (comma_value(string.format("%.1d", (cb.getMaxEnergyStored()))))
 print("There is " .. es .. " out of a Max of " .. mes)
+test
