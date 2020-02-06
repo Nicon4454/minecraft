@@ -39,5 +39,3 @@ end
 es = (comma_value(string.format("%.1d", (cb.getEnergyStored()))))
 mes = (comma_value(string.format("%.1d", (cb.getMaxEnergyStored()))))
 print("There is " .. es .. " out of a Max of " .. mes)
-
-eof
