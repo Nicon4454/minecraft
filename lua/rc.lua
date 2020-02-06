@@ -15,7 +15,7 @@ mon = peripheral.wrap("monitor_0")
 -- DO NOT CHANGE ANYTHING BELOW THIS LINE --
 
 
--- yyy 
+-- 
 
 
 function comma_value(amount)
