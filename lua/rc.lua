@@ -31,7 +31,7 @@ active = 0 --weather the reactor is on (1) or off (0)
 
 function reactorohoff()
     ron = (cb.getMaxEnergyStored() * ronp)
-    roff = (cb.getMaxEnergyStored() * roffp)
+        roff = (cb.getMaxEnergyStored() * roffp)
 end
 
 function comma_value(amount)
