@@ -17,6 +17,10 @@ ron = 0.25
 roff = 0.95
 -- DO NOT CHANGE ANYTHING BELOW THIS LINE --
 ch = 0 --case heat
+fh = 0 --Fuel heat
+fl = 0 --Fuel level
+wl = 0 --waste level
+active = 0 --weather the reactor is on (1) or off (0)
 
 
 
