@@ -40,5 +40,9 @@ es = (comma_value(string.format("%.1d", (cb.getEnergyStored()))))
 mes = (comma_value(string.format("%.1d", (cb.getMaxEnergyStored()))))
 print("There is " .. es .. " out of a Max of " .. mes)
 ]]
-print("the reactor will turn off when the capacitor power reaches " .. roff ..
-          " and it will turn on when it will reach " .. ron)
+reactoronoffp()
+fron = (comma_value(string.format("%.1d", (ron))))
+froff = (comma_value(string.format("%.1d", (roff))))
+
+print("the reactor will turn off when the capacitor power reaches " .. froff ..
+          " and it will turn on when it will reach " .. fron)
