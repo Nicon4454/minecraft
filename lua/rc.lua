@@ -4,7 +4,7 @@
 ## by nicon4454              ## 
 ## 02/05/2020 v0.01          ##
 ###############################
-]] -- Please change this section to match your needs
+]] -- Please change this section to match your needs(i.e. capacitor_bank_?)
 cb = peripheral.wrap("capacitor_bank_0")
 br = peripheral.wrap("BigReactors-Reactor_0")
 mon = peripheral.wrap("monitor_0")
