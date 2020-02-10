@@ -13,11 +13,15 @@ mon = peripheral.wrap("monitor_0")
 ronp = 0.25
 -- the roffp is the percent that the reactor will turn off when the power reaches that % of max power in your capacitor bank(s)
 roffp = 0.95
+-- redrawl intervil in seconds (default is 5)
+redrawl = 5
+
 -- DO NOT CHANGE ANYTHING BELOW THIS LINE --
 ch = 0 -- case heat
 fh = 0 -- Fuel heat
 fl = 0 -- Fuel level
 wl = 0 -- waste level
+rft = 0 -- rf per a tick
 ron = 0
 roff = 0
 active = 0 -- weather the reactor is on (1) or off (0)
@@ -39,10 +43,26 @@ end
 es = (comma_value(string.format("%.1d", (cb.getEnergyStored()))))
 mes = (comma_value(string.format("%.1d", (cb.getMaxEnergyStored()))))
 print("There is " .. es .. " out of a Max of " .. mes)
-]]
+
 reactoronoffp()
 fron = (comma_value(string.format("%.1d", (ron))))
 froff = (comma_value(string.format("%.1d", (roff))))
 
 print("the reactor will turn off when the capacitor power reaches " .. froff ..
           " and it will turn on when it will reach " .. fron)
+]]
+function reactor_off()
+br.setActive(false)
+end
+
+function reactor_on()
+br.setActive(true)
+end
+
+function getstats()
+rft = (coma_value(string.format("%.1d", (br.getEnergyproducedLastTick()))))
+ch = (coma_value(string.format("%.1d", (br.getCasingTemperature()))))
+fh = (coma_value(string.format("%.1d", (br.getFuelTemperature()))))
+fl = (coma_value(string.format("%.1d", (br.getFuelLevel()))))
+wl = (coma_value(string.format("%.1d", (br.getWasteLevel()))))
+end
