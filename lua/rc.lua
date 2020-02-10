@@ -19,12 +19,12 @@ redrawl = 5
 -- DO NOT CHANGE ANYTHING BELOW THIS LINE --
 -- this is a list of enviroment cursor postions.
 
-crft =
-cch = 
-cfh = 
-cfl =
-cwl = 
-cactive =
+crft = 0
+cfh = 0
+cfl = 0
+cwl = 0
+cch = 0
+cactive = 0
 ch = 0 -- case heat
 fh = 0 -- Fuel heat
 fl = 0 -- Fuel level
@@ -32,6 +32,8 @@ wl = 0 -- waste level
 rft = 0 -- rf per a tick
 ron = 0
 roff = 0
+fron = 0
+froff = 0
 active = 0 -- weather the reactor is on (1) or off (0)
 
 function reactoronoffp()
@@ -54,27 +56,26 @@ print("There is " .. es .. " out of a Max of " .. mes)
 ]]
 
 function reactoronoffp()
-fron = (comma_value(string.format("%.1d", (ron))))
-froff = (comma_value(string.format("%.1d", (roff))))
+    fron = (comma_value(string.format("%.1d", (ron))))
+    froff = (comma_value(string.format("%.1d", (roff))))
 end
 --[[
-print("the reactor will turn off when the capacitor power reaches " .. froff ..
-          " and it will turn on when it will reach " .. fron)
+print("the reactor will turn off when the capacitor power reaches " .. froff .." and it will turn on when it will reach " .. fron)
 ]]
 function reactor_off()
-br.setActive(false)
-active = 0
+    br.setActive(false)
+    active = 0
 end
 
 function reactor_on()
-br.setActive(true)
-active = 1  
+    br.setActive(true)
+    active = 1
 end
 
 function getstats()
-rft = (coma_value(string.format("%.1d", (br.getEnergyproducedLastTick()))))
-ch = (coma_value(string.format("%.1d", (br.getCasingTemperature()))))
-fh = (coma_value(string.format("%.1d", (br.getFuelTemperature()))))
-fl = (coma_value(string.format("%.1d", (br.getFuelLevel()))))
-wl = (coma_value(string.format("%.1d", (br.getWasteLevel()))))
+    rft = (coma_value(string.format("%.1d", (br.getEnergyproducedLastTick()))))
+    ch = (coma_value(string.format("%.1d", (br.getCasingTemperature()))))
+    fh = (coma_value(string.format("%.1d", (br.getFuelTemperature()))))
+    fl = (coma_value(string.format("%.1d", (br.getFuelLevel()))))
+    wl = (coma_value(string.format("%.1d", (br.getWasteLevel()))))
 end
