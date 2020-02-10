@@ -47,14 +47,16 @@ function comma_value(amount)
     end
     return formatted
 end
---[[
-es = (comma_value(string.format("%.1d", (cb.getEnergyStored()))))
+--[[ 
+es = (comma_value(string.format("%.1d", (cb.getEnergyStored())))) 
 mes = (comma_value(string.format("%.1d", (cb.getMaxEnergyStored()))))
 print("There is " .. es .. " out of a Max of " .. mes)
 ]]
-reactoronoffp()
+
+function reactoronoffp()
 fron = (comma_value(string.format("%.1d", (ron))))
 froff = (comma_value(string.format("%.1d", (roff))))
+end
 --[[
 print("the reactor will turn off when the capacitor power reaches " .. froff ..
           " and it will turn on when it will reach " .. fron)
@@ -66,7 +68,7 @@ end
 
 function reactor_on()
 br.setActive(true)
-active = 1
+active = 1  
 end
 
 function getstats()
