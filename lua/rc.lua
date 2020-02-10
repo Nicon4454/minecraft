@@ -17,6 +17,14 @@ roffp = 0.95
 redrawl = 5
 
 -- DO NOT CHANGE ANYTHING BELOW THIS LINE --
+-- this is a list of enviroment cursor postions.
+
+crft =
+cch = 
+cfh = 
+cfl =
+cwl = 
+cactive =
 ch = 0 -- case heat
 fh = 0 -- Fuel heat
 fl = 0 -- Fuel level
@@ -68,4 +76,3 @@ fh = (coma_value(string.format("%.1d", (br.getFuelTemperature()))))
 fl = (coma_value(string.format("%.1d", (br.getFuelLevel()))))
 wl = (coma_value(string.format("%.1d", (br.getWasteLevel()))))
 end
-
