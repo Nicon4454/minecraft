@@ -43,20 +43,22 @@ end
 es = (comma_value(string.format("%.1d", (cb.getEnergyStored()))))
 mes = (comma_value(string.format("%.1d", (cb.getMaxEnergyStored()))))
 print("There is " .. es .. " out of a Max of " .. mes)
-
+]]
 reactoronoffp()
 fron = (comma_value(string.format("%.1d", (ron))))
 froff = (comma_value(string.format("%.1d", (roff))))
-
+--[[
 print("the reactor will turn off when the capacitor power reaches " .. froff ..
           " and it will turn on when it will reach " .. fron)
 ]]
 function reactor_off()
 br.setActive(false)
+active = 0
 end
 
 function reactor_on()
 br.setActive(true)
+active = 1
 end
 
 function getstats()
@@ -66,3 +68,4 @@ fh = (coma_value(string.format("%.1d", (br.getFuelTemperature()))))
 fl = (coma_value(string.format("%.1d", (br.getFuelLevel()))))
 wl = (coma_value(string.format("%.1d", (br.getWasteLevel()))))
 end
+
