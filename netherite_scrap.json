@@ -1,0 +1,14 @@
+{
+    "name": "Netherite Scrap",
+    "type": "resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+        "item": "minecraft:netherite_scrap"
+    },
+    "color": "b7482f",
+    "textures": {
+        "flower": "mysticalagriculture:block/flower_rock",
+        "essence": "mysticalagriculture:item/essence_rock"
+    },
+    "essence": "minecraft:netherite_scrap"
+}
