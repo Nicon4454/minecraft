@@ -1,0 +1,14 @@
+{
+    "name": "Imperium_Essence",
+    "type": "resource",
+    "tier": "mysticalagriculture:4",
+    "ingredient": {
+        "item": "mysticalagriculture:imperium_essence"
+    },
+    "color": "007bd4",
+    "textures": {
+        "flower": "mysticalagriculture:block/flower_dust",
+        "essence": "mysticalagriculture:item/essence_dust"
+    },
+    "essence": "mysticalagriculture:imperium_essence"
+}

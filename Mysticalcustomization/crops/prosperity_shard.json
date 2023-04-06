@@ -1,0 +1,14 @@
+{
+    "name": "Prosperity_Shard",
+    "type": "resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+        "item": "mysticalagriculture:prosperity_shard"
+    },
+    "color": "B8B9C4",
+    "textures": {
+        "flower": "mysticalagriculture:block/flower_dust",
+        "essence": "mysticalagriculture:item/essence_dust"
+    },
+    "essence": "mysticalagriculture:prosperity_shard"
+}

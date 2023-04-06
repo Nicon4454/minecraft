@@ -1,0 +1,14 @@
+{
+    "name": "Prudentium_Essence",
+    "type": "resource",
+    "tier": "mysticalagriculture:2",
+    "ingredient": {
+        "item": "mysticalagriculture:prudentium_essence"
+    },
+    "color": "007B1E",
+    "textures": {
+        "flower": "mysticalagriculture:block/flower_dust",
+        "essence": "mysticalagriculture:item/essence_dust"
+    },
+    "essence": "mysticalagriculture:prudentium_essence"
+}

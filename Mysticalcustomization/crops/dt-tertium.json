@@ -1,0 +1,14 @@
+{
+    "name": "Tertium_Essence",
+    "type": "resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+        "item": "mysticalagriculture:tertium_essence"
+    },
+    "color": "AF4400",
+    "textures": {
+        "flower": "mysticalagriculture:block/flower_dust",
+        "essence": "mysticalagriculture:item/essence_dust"
+    },
+    "essence": "mysticalagriculture:tertium_essence"
+}

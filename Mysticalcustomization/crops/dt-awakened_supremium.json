@@ -1,0 +1,14 @@
+{
+    "name": "Awakened_Supremium_Essence",
+    "type": "resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+        "item": "mysticalagriculture:awakened_supremium_essence"
+    },
+    "color": "BF5900",
+    "textures": {
+        "flower": "mysticalagriculture:block/flower_dust",
+        "essence": "mysticalagriculture:item/essence_dust"
+    },
+    "essence": "mysticalagriculture:awakened_supremium_essence"
+}

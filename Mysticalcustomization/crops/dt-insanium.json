@@ -1,0 +1,14 @@
+{
+    "name": "Insanium_Essence",
+    "type": "resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+        "item": "mysticalagradditions:insanium_essence"
+    },
+    "color": "25022b",
+    "textures": {
+        "flower": "mysticalagriculture:block/flower_dust",
+        "essence": "mysticalagriculture:item/essence_dust"
+    },
+    "essence": "mysticalagradditions:insanium_essence"
+}
