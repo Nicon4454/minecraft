@@ -1,0 +1,14 @@
+{
+    "name": "Imperium_Essence",
+    "type": "resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+        "item": "rftoolsbase:dimensionalshard"
+    },
+    "color": "208fbf",
+    "textures": {
+        "flower": "mysticalagriculture:block/flower_gem",
+        "essence": "mysticalagriculture:item/essence_gem"
+    },
+    "essence": "mysticalagriculture:imperium_essence"
+}
