@@ -1,0 +1,39 @@
+F3 + c = trigger manual crash (hold for min 6 secconds then release)
+
+F3 + s = reload sound engine
+
+F3 + t = reload texturepack
+
+F3 + f = decrease render distance
+
+F3 + shift + f = increase render distance (might not work on mac)
+
+F3 + a = refresh world renderer (reload chunks)
+
+F3 + h = toggle advanced item tooltips (item ids and dammage values)
+
+F3 + b = toggle hitbox renderering
+
+F3 + p = toggle pause on lost focus (like alt-tabbing to another window)
+
+F1 = toggle gui
+
+F2 = capture a screenshot
+
+F3 = show debug info
+
+shift + F3 = show debug info including the profiler
+
+F5 = toggle camera view
+
+F7 (hold) = move the 'display' logic to 'root' (that's all the sence I can make it)
+
+F8 = toggle smooth camera
+
+1 trough 9 = select inventory slot
+
+1 trough 9 = move trough the profiler (debug screen)
+
+0 = move up a level in the profiler (debug screen)
+
+esc = open game menu
