@@ -1,0 +1,15 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": "minecraft:gold_ingot"
+        }
+    ],
+    "processing_time": 150,
+    "results": [
+        {
+            "count": 9,
+            "id": "minecraft:gold_nugget"
+        }
+    ]
+}

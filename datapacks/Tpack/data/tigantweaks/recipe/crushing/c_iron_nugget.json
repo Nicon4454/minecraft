@@ -1,0 +1,15 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    ],
+    "processing_time": 150,
+    "results": [
+        {
+            "count": 9,
+            "id": "minecraft:iron_nugget"
+        }
+    ]
+}

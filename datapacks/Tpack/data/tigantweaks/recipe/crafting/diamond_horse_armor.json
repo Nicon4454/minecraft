@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "A": {
+            "item": "minecraft:diamond_block"
+        },
+        "B": {
+            "item": "minecraft:flint"
+        }
+    },
+    "pattern": [
+        "BAB",
+        "BBB",
+        "BBB"
+    ],
+    "result": {
+        "id": "minecraft:diamond_horse_armor"
+    }
+}
